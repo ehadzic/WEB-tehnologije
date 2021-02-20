@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Title</title>
+		<link rel="stylesheet" href="stylesStudenti.css" />
+	</head>
+	<body>
+		<div id="meni">
+			<ul>
+				<li><a href="aktivnost.html">Aktivnost</a></li>
+				<li><a href="raspored.html">Raspored</a></li>
+				<li><a href="planiranjeNastavnik.html">Planiranje-Nastavnik</a></li>
+				<li><a href="podaciStudent.html">Podaci o studentu</a></li>
+				<li><a href="unosRasporeda.html">Unos rasporeda</a></li>
+				<li><a href="studenti.html"  style="color: black; font-weight: bolder">Unos studenata</a></li>
+			</ul>
+		</div>
+
+		<div id="container">
+			<div id="flexColumn">
+				<a id="naslovTextArea">Unos studenata</a>
+				<textarea id="studentiTxtArea" autofocus="true">
+				</textarea>
+				<a id="porukaGreske"></a>
+			</div>
+			<div id="flexColumn">
+				<a id="naslovTextArea">Odabir grupe</a>
+				<select id="grupe">
+					<option value="" disabled selected>--Odaberite grupu--</option>
+				</select>
+				<button id="dodajStudenteButton">Dodaj studente</button>
+			</div>
+		</div>
+		<script src="./studenti.js"></script>
+	</body>
+</html>

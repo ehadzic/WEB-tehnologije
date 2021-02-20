@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Title</title>
+		<link rel="stylesheet" href="stylesUnosRasporeda.css" />
+	</head>
+	<body>
+		<div id="meni">
+			<ul>
+				<li><a href="aktivnost.html">Aktivnost</a></li>
+				<li><a href="raspored.html">Raspored</a></li>
+				<li><a href="planiranjeNastavnik.html">Planiranje-Nastavnik</a></li>
+				<li><a href="podaciStudent.html">Podaci o studentu</a></li>
+				<li><a href="unosRasporeda.html" style="color: black; font-weight: bolder">Unos rasporeda</a></li>
+				<li><a href="studenti.html">Unos studenata</a></li>
+			</ul>
+		</div>
+
+		<div id="container">
+			<div id="aktivnostiLista">
+				<h1 id="naslovKolone">Aktivnosti</h1>
+				<ul id="listaAktivnosti">
+
+				</ul>
+			</div>
+			<form>
+				<h1 id="naslovKolone" style="margin-left: auto; margin-right: auto; text-decoration: underline;">Unos aktivnosti</h1>
+				<div class="formItem">
+					<label for="nazivAktivnosti" class="blok">Naziv:</label>
+					<input type="text" name="naziv" id="naziv" class="blok" />
+				</div>
+
+				<div class="formItem">
+					<label for="nazivPredmeta" class="blok">Predmet: </label>
+					<select name="predmeti" id="predmeti" class="blok">
+						<option value="" disabled selected>--Odaberite predmet--</option>
+					</select>
+				</div>
+
+				<div class="formItem">
+					<label for="tip" class="blok">Tip:</label>
+					<select name="tipovi" id="tipovi" class="blok">
+						<option value="" disabled selected>--Odaberite tip--</option>
+					</select>
+				</div>
+
+				<div class="formItem">
+					<label for="grupe" class="blok">Grupa</label>
+					<select name="grupe" id="grupe" class="blok" disabled>
+						<option value="" disabled selected>--Odaberite grupu--</option>
+					</select>
+				</div>
+
+				<div class="formItem">
+					<label for="dani" class="blok">Dan u sedmici:</label>
+					<select name="dani" id="dani" class="blok">
+						<option value="" disabled selected>--Odaberite dan--</option>
+					</select>
+				</div>
+
+
+
+				<div class="formItem">
+					<label for="vrijemep" class="blok">Vrijeme pocetka:</label>
+					<input type="time" name="vrijemep" id="vrijemep" class="blok" style="text-align: center" />
+				</div>
+
+				<div class="formItem">
+					<label for="vrijemek" class="blok">Vrijeme kraja:</label>
+					<input type="time" name="vrijemek" id="vrijemek" value="" class="blok" style="text-align: center" />
+				</div>
+
+
+
+				<div id="submitButton">
+					<input
+						type="submit"
+						value="Dodaj aktivnost"
+						id="dodaj-aktivnost"
+						style="background-color: #3969a6; color: white"
+					/>
+				</div>
+				<div id="poruka-validacije" style="margin:auto; margin-top: 1em;"></div>
+			</form>
+
+			<div id="predmetiLista">
+				<h1 id="naslovKolone">Predmeti</h1>
+				<ul id="listaPredmeta">
+
+				</ul>
+			</div>
+		</div>
+		<script src="unosRasporeda.js"></script>
+	</body>
+</html>

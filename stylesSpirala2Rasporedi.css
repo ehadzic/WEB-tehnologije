@@ -1,0 +1,44 @@
+.test-komande {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.test-kontejner{
+    padding-top: 50px;
+}
+
+.test-tekst {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.pokreni-test-dugme {
+    border-radius: 5px;
+    background-color: #90EE90;
+    color: black;
+}
+
+.pokreni-test-dugme:hover {
+    background-color: #4ae34a;
+}
+
+.resetuj-test-dugme {
+    border-radius: 5px;
+    background-color: #E3242B;
+    color: black;
+}
+
+.resetuj-test-dugme:hover {
+    background-color: #b32328;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}

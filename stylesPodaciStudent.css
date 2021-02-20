@@ -1,0 +1,62 @@
+body{
+  background-color: #C3D2E3;
+}
+
+a{
+  color: white;
+}
+
+li{
+  display: inline;
+  margin: 5px;
+}
+
+table{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+td, th{
+  height: 25px;
+}
+
+th{
+  background-color: #3969A6;
+}
+
+tr:hover .lijeva-celija{
+  border-left: 2px solid;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+tr:hover .desna-celija{
+  border-right: 2px solid;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+ul{
+  border: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#meni{
+  margin-bottom: 20px;
+  border: 0px;
+  background-color: #3969A6;
+}

@@ -1,0 +1,102 @@
+a{
+  color: white;
+}
+.aktivnost{
+  font-family: sans-serif;
+  color: #3969A6;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+body{
+  text-align: center;
+  background-color: #C3D2E3;
+}
+
+.drugi-kontejner{
+  margin-top: 10%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 30px;
+  width: 220px;
+  height: 260px;
+  border: solid 2px #3969A6;
+  border-radius: 15px;
+}
+
+legend{
+  font-family: sans-serif;
+  color: #3969A6;
+  font-size: 0.8em;
+  margin:auto;
+}
+
+li{
+  display: inline;
+  margin: 5px;
+}
+
+#meni{
+  text-align: left;
+  margin-bottom: 20px;
+  border: 0px;
+  background-color: #3969A6;
+}
+
+p{
+  font-family: sans-serif;
+  color: #3969A6;
+  font-size: 0.7em;
+  margin: 0;
+}
+
+.prvi-kontejner{
+  margin-top: 10%;
+  box-sizing: border-box;
+  padding-top: 40px;
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  border: solid 2px #3969A6;
+  border-radius: 30px;
+}
+
+.razmaknuto{
+  margin-top: 20px;
+}
+
+.treci-kontejner{
+  margin-top: 10%;
+  box-sizing: border-box;
+  padding-top: 40px;
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  border: solid 2px #3969A6;
+  border-radius: 30px;
+}
+
+ul{
+  border: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .prvi-kontejner{
+    display: none;
+
+  }
+
+  .drugi-kontejner{
+    margin-left: 25%;
+    display: block;
+  }
+  .treci-kontejner{
+    margin-left: 25%;
+    display: block;
+  }
+
+}

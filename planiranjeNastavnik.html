@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Planiranje-nastavnik</title>
+    <link rel="stylesheet" href="stylesPlaniranjeNastavnik.css">
+  </head>
+  <body>
+    <div id="meni">
+      <ul>
+        <li><a href="aktivnost.html">Aktivnost</a></li>
+        <li><a href="raspored.html">Raspored</a></li>
+        <li><a href="planiranjeNastavnik.html"  style="color: black; font-weight: bolder;">Planiranje-Nastavnik</a></li>
+        <li><a href="podaciStudent.html">Podaci o studentu</a></li>
+        <li><a href="unosRasporeda.html">Unos rasporeda</a></li>
+        <li><a href="studenti.html">Unos studenata</a></li>
+      </ul>
+    </div>
+    <form class="" action="index.html" method="post">
+      <table>
+        <tr>
+          <td>
+            <label for="naziv">Naziv predmeta:</label>
+          </td>
+          <td>
+            <input type="text" name="naziv" id="naziv">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="tip">Tip:</label>
+          </td>
+          <td>
+            <select name="tip" id="tip">
+              <option value="">--Please choose an option--</option>
+              <option value="predavanja">Predavanja</option>
+              <option value="vjezbe">Vjezbe</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="vrijemep">Vrijeme pocetka:</label>
+          </td>
+          <td>
+            <input type="time" name="vrijemep" id="vrijemep">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="vrijemek">Vrijeme kraja:</label>
+          </td>
+          <td>
+            <input type="time" name="vrijemek" id="vrijemek" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dani">Dan u sedmici:</label>
+          </td>
+          <td>
+            <select name="dani" id="dani">
+              <option value="">--Please choose an option--</option>
+              <option value="Ponedjeljak">Ponedjeljak</option>
+              <option value="Utorak">Utorak</option>
+              <option value="Srijeda">Srijeda</option>
+              <option value="Četvrtak">Četvrtak</option>
+              <option value="Petak">Petak</option>
+              <option value="Subota">Subota</option>
+              <option value="Nedjelja">Nedjelja</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

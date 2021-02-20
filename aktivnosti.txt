@@ -1,0 +1,3 @@
+WT,predavanja,12,13.5,Ponedjeljak
+Inzenjerska matematika,predavanja,12,13.5,Četvrtak
+Uzgajanje njemačkih ovčara,vjezbe,13,15,Subota

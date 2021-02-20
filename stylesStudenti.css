@@ -1,0 +1,76 @@
+body {
+
+    background-color: #c3d2e3;
+}
+
+#meni li {
+	display: inline;
+	margin: 5px;
+}
+
+a{
+    color: white;
+  }
+
+ul{
+    border: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+#meni {
+	text-align: left;
+	margin-bottom: 20px;
+	border: 0px;
+	background-color: #3969a6;
+}
+
+
+#container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7em 5em 0 3em;
+
+}
+
+#flexColumn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 2em 0 0em;
+ 
+}
+
+#naslovTextArea{
+    padding-bottom: 10px;
+    color: rgb(26, 25, 25);
+    font-weight: 600;
+}
+
+#studentiTxtArea{
+    width: 54em;
+    height: 12em;
+    margin-right: 1em;
+}
+
+#dodajStudenteButton{
+    margin-top: 8em;
+    background-color: #3969a6;
+    color: white;
+    border: solid #2e5588 3px;
+    height: 2em;
+    width: 10em;
+}
+
+#grupe{
+    height: 2em;
+    width: 15em;
+}
+
+#porukaGreske{
+    color:red;
+    margin-top: 2em;
+}
+

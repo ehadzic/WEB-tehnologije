@@ -1,0 +1,3 @@
+Prvo pokrenete konzolu u projektu i npm install, 
+zatim node index za pokretanje servera, 
+a mocha testiranjeRuta za pokretanje testova

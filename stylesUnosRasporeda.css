@@ -1,0 +1,120 @@
+body {
+
+	background-color: #c3d2e3;
+}
+
+#meni li {
+	display: inline;
+	margin: 5px;
+}
+
+a{
+    color: white;
+  }
+
+ul{
+    border: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+#meni {
+	text-align: left;
+	margin-bottom: 20px;
+	border: 0px;
+	background-color: #3969a6;
+}
+
+#submitButton{
+    margin-top: 2em;
+    margin-right: 3.5em;
+
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7em 5em 0 3em;
+}
+
+ form{
+    width: fit-content;
+    height: 20em;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    width: fit-content;
+    float: left;
+}
+
+form input,select{
+    width: 15em;
+    float: right;
+    margin-left: 2em;
+}
+
+.formItem{
+    width: 100%;
+    margin-top: 1em;
+} 
+
+#naslovKolone{
+    font-size: x-large;
+    color:rgb(48, 45, 45);
+}
+
+#aktivnostiLista, #predmetiLista{
+    text-align: center;
+    background-color: #86a1be3d;
+}
+
+#aktivnostiLista ul, #predmetiLista ul{
+    list-style: circle;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+#aktivnostiLista{
+    width: 20em;
+}
+
+#aktivnostiLista li{
+    text-align: left;
+}
+
+#predmetiLista{
+    width: 15em;
+    padding: 0 30px 0 10px;
+}
+
+#predmetiLista li{
+
+    text-align: left;
+}
+
+h1{
+    margin-top: -2em;
+    padding-bottom: 1em;
+}
+
+#listaAktivnosti li, #listaPredmeta li{
+    margin-bottom: 10px;
+}
+
+.blok {
+	margin-bottom: 5px;
+}
+
+.validno {
+	color: #4ae34a;
+}
+
+.nevalidno {
+	color: #b32328;
+}

@@ -1,0 +1,166 @@
+a{
+  color: white;
+}
+
+.boldirano{
+  font-weight: bold;
+}
+
+.font-14 {
+  font-size: 14px!important;
+}
+
+.centar{
+  text-align: center;
+  font-weight: lighter;
+  background-color: #ffffff;
+}
+
+.cetvrti-tip{
+  border-right: thin dashed #45433e;
+  border-left: thin dashed #45433e;
+  border-top: thin solid #45433e;
+  border-bottom: thin solid #45433e;
+}
+
+.dani{
+  border: none;
+  text-align: right;
+  background-color: #ffffff;
+  padding-right: 8px;
+}
+
+.desno{
+  text-align: right;
+  font-weight: lighter;
+  background-color: #ffffff;
+}
+
+.drugi-tip{
+  border-top: thin solid #45433e;
+  border-bottom: thin solid #45433e;
+  border-right: thin solid #45433e;
+  border-left: thin dashed #45433e;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+li{
+  display: inline;
+  margin: 5px;
+}
+
+.lijevo{
+  text-align: left;
+  font-weight: lighter;
+  background-color: #ffffff;
+}
+
+
+#meni{
+  margin-bottom: 60px;
+  border: 0px;
+  background-color: #3969A6;
+}
+
+p{
+  margin: 0;
+  font-size: 0.7em;
+  font-family: 'Inconsolata', monospace;
+}
+
+
+.popunjeno{
+  background-color: #DEE6EF;
+  text-align: center;
+  vertical-align: top;
+}
+
+.prvi-tip{
+  border-top: thin solid #45433e;
+  border-bottom: thin solid #45433e;
+  border-left: thin solid #45433e;
+  border-right: thin dashed #45433e;
+}
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td{
+  width: 12px;
+  height: 45px;
+  background-color: #E6E6E6;
+}
+
+.treci-tip{
+  border-right: thin solid #45433e;
+  border-left: thin solid #45433e;
+  border-top: thin solid #45433e;
+  border-bottom: thin solid #45433e;
+}
+
+ul{
+  border: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vrijeme{
+  background-color: #ffffff;
+  vertical-align: bottom;
+}
+
+.vrijeme p{
+  margin: 0;
+  font-size: 12px;
+
+}
+
+@media only screen and (max-width: 600px){
+  .boldirano{
+    font-weight: normal;
+  }
+
+  .dani{
+    box-sizing: border-box;
+    text-align: center;
+    height: 20px;
+    border: 1px solid black;
+    width: 250px;
+  }
+
+  table{
+    margin: auto;
+  }
+
+  td{
+    box-sizing: border-box;
+    display: block;
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+  }
+
+  .popunjeno{
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+
+  .prazno{
+    display: none;
+  }
+
+  .vrijeme{
+    display: none;
+  }
+}
+
+.div-greska {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
